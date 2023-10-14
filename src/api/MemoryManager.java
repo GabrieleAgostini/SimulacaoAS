@@ -9,7 +9,8 @@ import java.util.Queue;
 
 public class MemoryManager {
     public static void main(String[] args) {
-        String[] traceFiles = {"bzip.trace", "gcc.trace", "sixpack.trace", "swim.trace", "bigone.trace"};
+        String[] traceFiles = {"src//txt//swim.trace"};
+
         int[] frameSizesToTest = {1024, 2048, 4096, 8192};
         int[] ageBitsToTest = {1, 2, 4, 8};
 
